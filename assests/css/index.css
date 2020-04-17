@@ -1,0 +1,11 @@
+body {
+    background-image: src="assets/images/purpFlwrBkg.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blanchedalmond;
+}
+
+img {
+    border: 4px double aqua;
+    border-radius: 200px;
+}

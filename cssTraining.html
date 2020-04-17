@@ -9,40 +9,34 @@
 
 <body>
     <!--BS navbar-->
-    <nav class="navbar navbar-expand-lg customNavBg">
-        <a class="navbar-brand" href="index.html">Navbar</a>
-        <b>VCD 5D</b>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsExample09">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cssTraining.html">Css Training</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="floatPositionActivity.html">Float Activity</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Contact</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown09">
-                        <a class="dropdown-item" href="mailto: miccram427@gmail.com">E-mail</a>
-                        <a class="dropdown-item" href="https://github.com/mcramIT">Github Page</a>
-                        <a class="dropdown-item" href="https://mcramit.github.io/">VCD 5D Website</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-md-0">
-                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-            </form>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="contact.html">Contacts
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="mailto: miccram427@gmail.com">E-mail</a></li>
+                <li><a href="https://github.com/mcramIT/mcramIT.github.io">Github</a></li>
+                <li><a href="https://mcramit.github.io/">VCD Website</a></li>
+              </ul>
+              <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </li>
+            <li><a href="cssTraining.html">CSS Training</a></li>
+            <li><a href="floatPositionActivity.html">Float Activity</a></li>
+          </ul>
         </div>
-    </nav>
-    <h1>Page name</h1>
+      </nav>
+          <h1>Page name</h1>
 </body>
 
 </html

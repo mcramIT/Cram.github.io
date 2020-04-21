@@ -5,42 +5,57 @@
     <!--Required Meta Tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Css Training</title>
+    <title>Home Page</title>
     <!--CSS File-->
-    <link rel="stylesheet" href="assets/css/cssTraining.css">
-    <link rel="stylesheet" href="assets/css/defaltstyle.css">
+    <link rel="stylesheet" href="assets/css/homepage.css">
+    <link rel="stylesheet" href="assets/css/defaultstyle.css">
     <!--Bootstrap Stylesheet-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src=“https://kit.fontawesome.com/938a18ead6.js” crossorigin=“anonymous”></script>
 </head>
 
 <body>
-    <!--BS navbar-->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Portfolio</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="contact.html">Contacts
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mailto: miccram427@gmail.com">E-mail</a></li>
-                        <li><a href="https://github.com/mcramIT/mcramIT.github.io">Github</a></li>
-                        <li><a href="https://mcramit.github.io/">VCD Website</a></li>
-                    </ul>
-                    <form class="navbar-form navbar-left" action="/action_page.php">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
+    <!-- BS navbar -->
+    <nav class="navbar navbar-expand-lg customNavBg">
+        <a class="navbar-brand" href="index.html"><b>VCD 5D</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#customNavBg"
+            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="bars" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                    class="svg-inline--fa fa-cheeseburger fa-w-16 fa-fw fa-lg">
+                    <path fill="currentColor"
+                        d="M352 176a16 16 0 1 0-16-16 16 16 0 0 0 16 16zm-96-32a16 16 0 1 0-16-16 16 16 0 0 0 16 16zm-96 32a16 16 0 1 0-16-16 16 16 0 0 0 16 16zm352 112a79.33 79.33 0 0 0-28.1-60.4 8.78 8.78 0 0 0 1.2-1.5 72.49 72.49 0 0 0 .6-75.4C442.3 78.7 352.19 32.1 256 32c-96.1.1-186.31 46.7-229.71 118.7a72.45 72.45 0 0 0 .6 75.4 15.76 15.76 0 0 0 1.2 1.5 79.35 79.35 0 0 0-9.3 111.8 78.09 78.09 0 0 0 15 13.7c-.7 2.8-1.7 5.5-1.7 8.5v34.7a83.73 83.73 0 0 0 83.7 83.7h280.6a83.8 83.8 0 0 0 83.71-83.7v-34.7c0-3-1.1-5.7-1.7-8.5A80 80 0 0 0 512 288zM67.37 175.5c34.9-57.9 109-95.4 188.61-95.5 79.71.1 153.81 37.6 188.72 95.5a24.51 24.51 0 0 1-.2 25.2c-2.9 4.7-7.41 7.4-12.21 7.4H79.67c-4.8 0-9.3-2.7-12.2-7.4a24.73 24.73 0 0 1-.1-25.2zM432 396.3a35.72 35.72 0 0 1-35.7 35.7H115.67A35.72 35.72 0 0 1 80 396.3v-25.6h352zm0-76.3H80a32 32 0 0 1 0-64h144l96 48 96-48h16a32 32 0 1 1 0 64z"
+                        class="words"></path>
+                </svg>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="customNavBg">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li><a href="cssTraining.html">CSS Training</a></li>
-                <li><a href="floatPositionActivity.html">Float Activity</a></li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="cssTraining.html">Css Traning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="floatPositionActivity.html">Float Activity</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Contact</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="mailto: miccram427@gmail.com">Email</a>
+                        <a class="dropdown-item" href="https://github.com/mcramIT" target="_blank">Github page</a>
+                        <a class="dropdown-item" href="https://mcramIT.github.io" target="_blank">VCD 5d website</a>
+                    </div>
+                </li>
             </ul>
+            <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
         </div>
     </nav>
     <h1>Page name</h1>

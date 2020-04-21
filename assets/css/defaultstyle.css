@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto Slab", sans-serif;
+    padding-bottom: 120px;
+}
+
+.words {
+    color: blanchedalmond !important;
+    font-weight: bold;
+}
+
+footer {
+    padding:40px;
+    background: #e4d01f;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    text-align: center;
+    color:white;
+}
+
+.height200 {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 20px 0;
+}
+
+/* navigation custom styling */
+.customNavBg {
+    background-color: #dace2f!important;
+}
+
+.customNavBg > a.navbar-brand:hover {
+    color: white
+}
+
+.customNavBg li {
+    margin-right: 20px;
+}
+
+.customNavBg li.nav-item.active > a {
+    color: orange;
+    font-weight: bold;
+}
+
+.customNavBg a {
+    color: white;
+}
+
+.customNavBg li > a:hover {
+    color: orange;
+    text-decoration: unset;
+    font-weight: bold;
+    transform: scale(1.01);
+}
+
+.customNavBg a.dropdown-item {
+    color: #d3ba2a;
+    background-color: transparent;
+}
+
+.customNavBg a.dropdown-item:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* section title styling */
+.sectionTitle {
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.sectionTitle h2 {
+    color: #e4c439;
+    font-weight: bold;
+}
+
+.sectionTitle hr {
+    border: 2px solid #ddda25;
+    width: 30%;
+}
+
+.carousel-item {
+    height: 200px !important;
+    width: 200px !important;
+}

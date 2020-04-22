@@ -10,6 +10,10 @@ ul {
 
 }
 
+.card-body {
+    padding: 4px;
+}
+
 li {
     display: inline;
 }
@@ -22,22 +26,15 @@ body {
     background-image: url("../images/purpFlwrBkg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: blanchedalmond;
 }
 
 img.avatar {
-    border: 4px double rgb(216, 198, 33);
+    border: 6px double rgb(104, 227, 231);
     border-radius: 200px;
 }
 
 .active {
     color: blue;
-}
-
-body {
-    background-color: white;
-    /* background-image: url("../images/huskies.jpg"); */
-    background-size: cover;
 }
 
 .circleImage {
@@ -105,8 +102,8 @@ a.tesla-link:active {
 }
 
 /* project gallery section */
-.projectGallerySection{
-    padding: 30px 0;
+.projectGallerySection {
+    padding: 5px 0;
 }
 
 .projectGallerySection div.card {
@@ -138,7 +135,7 @@ a.btn.projectCardBtn:hover {
 }
 
 .projectGallerySection .card-title {
-    color:#226ed3;
+    color: #226ed3;
     text-decoration: underline;
     text-transform: capitalize;
     font-weight: bold;
@@ -146,5 +143,76 @@ a.btn.projectCardBtn:hover {
 }
 
 .modal-content {
-    color: wheat !important;
+    background-color: rgb(170, 46, 164) !important;
+    border-radius: 600px !important;
+    object-fit: cover;
+}
+
+.d-block .w-100 {
+    border-radius: 600px !important;
+    object-fit: cover !important;
+}
+
+.fa-chevron-left .fa-chevron-right {
+    color: ivory !important;
+}
+
+.customProjectModal button.close {
+    opacity: 1;
+}
+
+.customProjectModal button.close>span {
+    color: orange;
+}
+
+.customProjectModal button.close:hover {
+    transform: scale(1.5);
+}
+
+.customProjectModal button.close>span:hover {
+    color: #34af95;
+}
+
+.customProjectCarousel a span:first-child i {
+    color: #34af95;
+    font-size: 10px;
+    z-index: 2;
+}
+
+.customProjectCarousel a.carousel-control-prev,
+.customProjectCarousel a.carousel-control-next {
+    opacity: none;
+    color: lawngreen;
+}
+
+.customProjectCarousel a span:first-child i:hover {
+    color: orange;
+    z-index: 2;
+}
+
+.customProjectCarousel div.carousel-inner img {
+    height: 350px;
+}
+
+.customProjectModal button.close {
+    opacity: 1;
+}
+
+.customProjectModal button.close>span {
+    color: orange;
+}
+
+.customProjectModal button.close:hover {
+    transform: scale(1.5);
+}
+
+.customProjectModal button.close>span:hover {
+    color: #34af95;
+}
+
+i .fas.fa-chevron-left,
+i .fas.fa-chevron-right {
+    color: lemonchiffon !important;
+    font-size: 10px !important;
+    font-weight: bolder !important;
 }

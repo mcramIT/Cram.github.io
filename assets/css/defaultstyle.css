@@ -1,6 +1,10 @@
 body {
     font-family: "Roboto Slab", sans-serif;
     padding-bottom: 120px;
+    justify-content: center !important;
+    align-content: center !important;
+    margin: auto;
+    padding: auto;
 }
 
 .words {
